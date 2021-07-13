@@ -1,0 +1,287 @@
+﻿
+@{
+    ViewBag.Title = "About Us";
+}
+
+<style>
+    #outerbox {
+        width: 360px;
+        overflow: hidden;
+    }
+
+    #sliderbox {
+        position: relative;
+        width: 1440px;
+        animation-name: goodbrick;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+        #sliderbox img {
+            float: left;
+        }
+
+    @@keyframes goodbrick {
+        0% {
+            left: 0px;
+        }
+
+        20% {
+            left: 0px;
+        }
+
+        25% {
+            left: -360px;
+        }
+
+        45% {
+            left: -360px;
+        }
+
+        50% {
+            left: -720px;
+        }
+
+        70% {
+            left: -720px;
+        }
+
+        75% {
+            left: -1080px;
+        }
+
+        95% {
+            left: -1080px;
+        }
+        /* 100% {
+            left: -1440px;
+        }*/
+    }
+</style>
+<section>
+    <div class="col-lg-10 offset-lg-1">
+        <div class="promotion-area pt-50 pb-50">
+
+
+            <div class="container">
+                <div class="row mb-30 ">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="single-features text-center mb-30">
+                            @*<h2>Floors & Roofs</h2>*@
+                            <h4 style="line-height:38px;font-size:20px;">
+                                Good Brick Company busts the myths of Compressed Stabilized Mud Bricks
+                                and brings to you a time tested technology that is steeped in the wisdom
+                                and goodness that mother earth has to offer!
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  mt-50">
+
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="cta-img">
+                            @*<img src="/assets/imgs/product-header.jpg" alt="" style="height:auto; width:361px;">*@
+
+                            <div id="outerbox">
+                                <div id="sliderbox">
+                                    <img src="/assets/imgs/about-slider-1.jpg" style="height:auto; width:360px;">
+                                    <img src="/assets/imgs/about-slider-2.jpg" style="height:auto; width:360px;">
+                                    <img src="/assets/imgs/about-slider-3.jpg" style="height:auto; width:360px;">
+                                    <img src="/assets/imgs/about-slider-4.jpg" style="height:auto; width:360px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="promotion-text promo-2">
+                            <h4>
+                                <b>The Story</b>
+                            </h4>
+                            <p>The idea for Good Brick company started in 2009 as a result of some wishful thinking.</p>
+                            <P>
+
+                                It all started when Mrs. Pratibha Ravi and her husband Mr. Ravi Kumar decided to build a home for themselves. They had a
+                                very clear idea in mind that, not only did they want their home to be cozy and beautiful but environmentally sustainable too.
+                                The couple would discuss on various ways to make their home eco-friendly and Ravi would always reminisce about his
+                                childhood home he grew up in, in a small village in Andhra Pradesh. Ravi would tell tales of how the entire house, even the
+                                walls and ceiling was made of mud. The house was at least 110 years old and would be cool in the summers and warm in the
+                                winters. He would say that the fragrance of wet earth during the rains brings back fond memories of the house. He had a
+                                very special connection to the house and its building material, mud.
+
+                            </P>
+                            <P>
+                                However, the house had fallen on bad times, with leavy leakages and many other problems to boot. Seeing the attachment
+                                Ravi had to mud, Pratibha was convinced that they should rebuild the house and make it contemporary while retaining the
+                                essence and sanctity of mud.
+                            </P>
+                            <P>
+                                This proved to be easier said than done. The couple searched extensively for alternate methods of construction that would
+                                serve their goal. Ravi traveled to Tamil Nadu, Kerala and Karnataka and even went to IISc to find the best way to celebrate
+                                the humble mud. That was when they discovered compressed mud bricks. They were very impressed with its advantages of
+                                strength and durability and vowed to use it to build their dream house.
+                            </P>
+                            <P>
+                                But, compressed mud bricks came with its own set of hurdles. It involved special skilled labor, manufacturing space on site,
+                                regular testing and et all. Not just that they also needed an engineer willing to work with the material. They thought there
+                                had to be a better way to build with mud bricks…
+                            </P>
+                            <P>
+                                ..And that is how the Good Brick Company was born. It is here to tell everyone that building with mud is easy and that make
+                                the ecologically conscious construction choice need not involve compromise and hassles.
+                            </P>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- promotion-area end -->
+        <!-- brand-boder -->
+        <div class="promotion-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="brand-border">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- page-title-area end -->
+        <div class="services-area pt-100 pb-40">
+            <div class="container">
+                <div class="section-title text-center mb-70">
+                    <h2>Doing good work with Good Bricks</h2>
+                    @*<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>*@
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="service-box  text-center">
+                            @*<i class="far fa-lightbulb"></i>*@
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/icon-6.png" alt="">
+                            </div>
+                            <h3>No gender discrimination</h3>
+                            <p>
+                                We believe in equality, specially
+                                when it comes to pay. Men and
+                                women get equal pay.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="service-box  text-center">
+                            @*<i class="far fa-comments"></i>*@
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/icon-8.png" alt="">
+                            </div>
+                            <h3>Hiring and Training</h3>
+                            <p>
+                                Special focus is made on hiring
+                                talented yet unemployed persons.
+                                Special training is given to the
+                                workforce wherein they understand
+                                the technology and also get invested
+                                in the ethos behind the operation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="service-box  text-center">
+                            @*<i class="far fa-handshake"></i>*@
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/icon-7.png" alt="">
+                            </div>
+                            <h3>Sustainable living</h3>
+                            <p>
+                                We preach as well as practice
+                                sustainable livivng. The production
+                                facility houses an organic garden
+                                where vegetables are grown. These
+                                are tended for by the workforce,
+                                where they grow they produce they
+                                want to consume.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- team-area start -->
+        <!-- brand-boder -->
+        <div class="promotion-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="brand-border">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-area pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-title text-center mb-70">
+                            <h2>Advisors</h2>
+                            @*<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box text-center mb-30 white-bg">
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/trans-man-2.png" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h3><b>Dr. Yogananda M R</b></h3>
+                                <h6>Consulting Engineer at MRINMAYEE</h6>
+                                <h3 style="margin-top:20px;">IISc, Bangalore</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box text-center mb-30 white-bg">
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/trans-man-2.png" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h3><b>Chitra Vishwanath</b></h3>
+                                <h6>
+                                    Principal architect & managing director
+                                </h6>
+                                <h3 style="margin-top:20px;"> Biome Environmental Solutions, Bangalore</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box text-center mb-30 white-bg">
+                            <div class="team-thumb">
+                                <img src="/assets/imgs/trans-man-2.png" alt="">
+                            </div>
+                            <div class="team-title">
+                                <h3><b>Dr. Jagadish</b></h3>
+                                <h6>(Ret.) Dept of Civil Engineering</h6>
+                                <h3 style="margin-top:20px;">IISc, Bangalore</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- team-area end -->
+
+        </div>
+
+    </div>
+
+</section>
+

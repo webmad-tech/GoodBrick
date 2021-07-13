@@ -1,0 +1,1042 @@
+﻿<!doctype html>
+<html class="no-js" lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Good Brick Company - @ViewBag.Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.html">
+    <link rel="apple-touch-icon" href="icon.html">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/logo-trans.png">
+    <!--google font muli-->
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+    <!-- Place favicon.ico in the root directory -->
+    <!-- All css here -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <style type="text/css">
+        body {
+            font-family: 'Muli';
+            color: #b36d33;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            font-family: 'Muli';
+            color: #b36d33;
+        }
+
+        .row {
+            margin-left: 10px;
+        }
+
+        .custom-margin {
+            margin-left: 26px;
+        }
+
+        .our-mission .card {
+            /*  border: 1px solid ;*/
+            border-bottom: 1px solid #ac5e26;
+            margin-top: 9px;
+            padding: 10px 3px 17px 3px;
+        }
+
+        .slider-content p {
+            font-size: 20px;
+            color: #ac5f28;
+        }
+
+
+        .slider-content h1 {
+            color: #333;
+            font-size: 50px;
+        }
+        /* .slick-slide img {
+
+            height: 480px;
+        }*/
+        .custom-h2 h2 {
+            font-size: 24px;
+        }
+
+        .single-features img {
+            height: 150px;
+            padding-right: 21px;
+        }
+
+        .custom-cta-img img {
+            margin-left: -10px;
+            height: 380px;
+            margin-top: 20px;
+        }
+
+        .custom-testimonial img {
+            border-radius: 68px;
+            /* margin-left: 317px;*/
+        }
+
+        .service-box > h3 {
+            font-size: 19px;
+            margin-top: 20px;
+            color: #ac5f28;
+        }
+
+        .nice-select {
+            float: unset;
+            margin-bottom: 30px;
+        }
+
+        .custom-logo img {
+            width: auto;
+            height: 70px;
+        }
+
+        .footer-link li a {
+            font-size: 14px;
+        }
+
+        .footer-info > li {
+            font-size: 14px;
+            color: #AD5F26;
+        }
+
+        .custom-ftr-logo img {
+            width: auto;
+            height: 128px;
+        }
+
+        .slider-content span {
+            font-size: 20px;
+        }
+
+        .gray-bg {
+            background: #e6e3e16e;
+        }
+
+        .custom-footer-bg {
+            background: #210F02;
+        }
+
+        .footer-widget > h3 {
+            color: #AD5F26;
+            font-size: 24px;
+        }
+
+        .custom-ftr-color {
+            color: #AD5F26;
+        }
+
+        .cusom-promotion-text {
+            padding-left: unset;
+        }
+
+        .custom-text-color a {
+            color: #929292;
+        }
+
+            .custom-text-color a:hover {
+                color: #AD5F26;
+            }
+
+        .wrapper-box {
+            padding-left: unset;
+            padding-right: unset;
+        }
+
+        .our-mission .btn-link.collapsed::before {
+            border: unset;
+        }
+
+        .our-mission .btn-link::before {
+            background: unset;
+            border: unset;
+        }
+
+        .our-mission .btn-link {
+            font-size: 16px;
+        }
+
+        .single-slider.slider-height {
+            min-height: 500px;
+        }
+
+        .custom-li li {
+            margin-top: 5px;
+        }
+
+        .custom-img img {
+            margin-left: 34px;
+            margin-top: 2px;
+            height: 378px;
+        }
+
+        .custom-line-one img {
+            height: 264px;
+        }
+
+        .custom-line-two img {
+            height: 78px;
+            width: 5px;
+            padding-bottom: 7px;
+        }
+
+        .custom-line-three img {
+            height: 73px;
+            width: 5px;
+        }
+
+        @@media all and (max-width: 767px) {
+            .custom-mobile-slider {
+                background-position: top;
+            }
+            .slider-content p {
+                font-size: 17px;
+            }
+
+            .custom-mobile h2 {
+                font-size: 21px;
+            }
+
+            .custom-li li {
+                margin-top: unset;
+            }
+
+            .our-mission .btn-link {
+                font-size: 10px;
+            }
+
+            .row {
+                margin-left: unset;
+            }
+
+            .custom-testimonial img {
+                border-radius: 68px;
+                margin-left: 74px;
+            }
+
+            .single-features img {
+                height: 165px;
+                margin-left: -25px;
+            }
+
+            .page-title-area {
+                padding: 12px 0;
+            }
+
+            .hide-mobile {
+                display: none;
+            }
+
+            .custom-copyright-text p {
+                padding-right: 71px;
+            }
+
+            .custom-logo img {
+                width: auto;
+                height: 65px;
+            }
+
+            .single-slider.slider-height {
+                min-height: 275px;
+            }
+
+            .custom-cta-img img {
+                margin-left: unset;
+                height: unset;
+                margin-top: unset;
+            }
+
+            .custom-mobile-text-align {
+                text-align: center;
+            }
+
+            .custom-icons-height img {
+                height: 70px;
+            }
+
+            .custom-aboutus-cta-img img {
+                width: auto;
+                height: 300px !important;
+            }
+
+            .custom-fr-img img {
+                height: auto;
+                width: 263px;
+            }
+
+            .brick-size-custom-margin {
+                margin-left: unset !important;
+            }
+
+            .custom-location-img img {
+                height: auto;
+                width: 84px;
+                margin-left: 40px;
+            }
+            .designation img {
+                position: relative;
+                top: 81px;
+                left: -24px!important;
+            }
+            .mean-container a.meanmenu-reveal {
+                top: -12px;
+            }
+        }
+
+        @@media all and (min-width: 768px) and (max-width:1024px) {
+
+            .custom-testimonial img {
+                border-radius: 68px;
+                margin-left: 277px;
+            }
+
+            .page-title-area {
+                padding: 40px 0;
+            }
+
+            .hide-mobile {
+                display: none;
+            }
+
+            .custom-copyright-text p {
+                padding-right: 204px;
+            }
+
+            .custom-logo img {
+                width: auto;
+                height: 60px;
+            }
+
+            .single-slider.slider-height {
+                min-height: 403px;
+            }
+
+            .custom-aboutus-cta-img img {
+                display: none;
+            }
+
+            .custom-location-img img {
+                height: auto;
+                width: 84px;
+                margin-left: 40px;
+            }
+            .mean-container a.meanmenu-reveal {
+                top: -15px;
+            }
+        }
+
+        .custom-margin-left a {
+            margin-left: 16px;
+        }
+
+        .main-menu ul li:hover > a {
+            color: #ad6029;
+        }
+
+        .main-menu ul li a {
+            color: #ad6029;
+        }
+
+        .social-icon > a {
+            color: #ad5f26;
+        }
+
+            .social-icon > a:hover {
+                color: #AD5F26;
+            }
+
+
+        .our-mission .btn-link {
+            color: #ac5e26;
+        }
+
+        .single-features h2 {
+            color: #ac5e26;
+            font-size: 24px;
+        }
+
+
+        a, button {
+            color: #AD5F26;
+            outline: medium none;
+        }
+
+            a:hover {
+                color: #AD5F26;
+            }
+
+        .footer-icon > a {
+            color: #AD5F26;
+            font-size: 22px;
+            margin-right: 26px;
+        }
+
+            .footer-icon > a:hover {
+                color: #AD5F26;
+            }
+
+        .footer-link li a {
+            color: #AD5F26;
+            font-size: 12px;
+        }
+
+            .footer-link li a:hover {
+                color: #AD5F26;
+            }
+
+        .testimonial-item i {
+            color: #a9581f;
+        }
+
+        .brand-border {
+            border-bottom: 2px solid #af602a;
+        }
+
+        .custom-yellow-bg {
+            background: #ffffb5;
+        }
+
+        .single-features > p {
+            font-size: 14px;
+            line-height: 33px;
+        }
+
+        .section-title > h2 {
+            font-size: 24px;
+        }
+
+        .designation > h3 {
+            font-size: 20px;
+        }
+
+        .testimonial-item > p {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .promotion-text > p {
+            font-size: 14px;
+        }
+
+        .custom-padding-p p {
+            padding-top: 85px;
+        }
+
+        .custom-single-feature img {
+            margin-left: -8px;
+        }
+
+        .custom-nav-margin {
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+
+        .testimonial-nav {
+            margin: 90px auto auto;
+        }
+
+        .custom-aboutus-cta-img img {
+            width: auto;
+            height: 235px;
+        }
+
+        .menu-active {
+            color: #b16529 !important;
+        }
+
+            .menu-active::after {
+                content: " ";
+                bottom: 1px !important;
+                display: block;
+                width: 100%;
+                border-bottom: 2px solid #b16529;
+            }
+
+        .main-menu ul li a {
+            font-size: 12px;
+            padding: unset;
+        }
+
+        .custom-ftr-img img {
+            height: 139px;
+            width: 120px;
+        }
+
+        .custom-row {
+            margin-left: unset;
+        }
+
+        .custom-p p {
+            line-height: unset;
+        }
+
+        .cusom-ftr-line-img img {
+            margin-top: -223px;
+            height: 410px;
+            padding-left: 6px;
+        }
+
+        .service-box {
+            border: unset;
+        }
+
+        .btn.btn-2 {
+            border-color: #b16834;
+        }
+
+        .btn.brand-btn:hover {
+            background: #fff;
+            color: #b16834;
+        }
+
+        .btn.btn-2:hover {
+            border-color: #b06630;
+        }
+
+        .brick-size-custom-margin {
+            margin-left: -30px;
+        }
+
+        .contact-info {
+            border: unset;
+        }
+
+        label {
+            color: #636363;
+        }
+
+        .nice-select {
+            border-color: #ad5f26;
+        }
+
+        .contact-form input {
+            border-color: #ad5f26;
+        }
+
+        .contact-form textarea {
+            border-color: #ad5f26;
+        }
+
+        .btn.brand-btn {
+            background: #fff;
+            color: #ad5f26;
+            border: 1px solid #ad5f26;
+        }
+
+        .custom-wasb-p p {
+            font-size: 14px;
+        }
+
+        .custom-location-img img {
+            height: auto;
+            width: 84px;
+        }
+        .custom-padding{
+            padding:unset;
+        }
+       /* testimonial img slider*/
+       /* .testimonial-nav {          
+            width: 96px;
+            position: relative;
+            top: -126px;
+            left: -135px;
+        }*/
+        .testimonial-nav {
+            width: 96px;
+        }
+
+        .designation {
+            position: relative;
+            left: 48px;
+            bottom: 23px;
+        }
+
+        .designation img {
+            position: relative;
+            top: 81px;
+            left: 91px;
+        }
+        .fa-chevron-left::before {
+          
+            position: relative;
+            bottom: 359px;
+            right: 350px;
+        }
+        .fa-chevron-right::before {
+            position: relative;
+            bottom: 359px;
+            left: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        @*<div class="header-top-area pl-60 pr-60">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6 d-flex align-items-center">
+                            <div class="language f-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">English <i class="fas fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="#">English</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social-icon f-left d-none d-md-block">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                            <div class="header-right f-right">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fas fa-search"></i></a>
+                                        <div class="search-form">
+                                            <form action="#">
+                                                <input type="text" placeholder="Search">
+                                                <button><i class="fas fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li class="info-bar"><a href="#"><i class="fas fa-bars"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+        <div class="extra-info">
+            <div class="close-icon">
+                <button><i class="far fa-window-close"></i></button>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrudexe rc itation ullamco laboris nisi ut aliquip ex ea com modo consequat. Duis aute irure.
+            </p>
+            <div class="instagram">
+                <a href="#"><img src="/assets/img/instagram/insta1.png" alt=""></a>
+                <a href="#"><img src="/assets/img/instagram/insta2.png" alt=""></a>
+                <a href="#"><img src="/assets/img/instagram/insta3.png" alt=""></a>
+                <a href="#"><img src="/assets/img/instagram/insta4.png" alt=""></a>
+                <a href="#"><img src="/assets/img/instagram/insta5.png" alt=""></a>
+                <a href="#"><img src="/assets/img/instagram/insta6.png" alt=""></a>
+            </div>
+            <div class="social-icon-right mt-30">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="header-bottom-area pl-60 pr-60">
+            <div class="container-fluid">
+                <div class="row align-items-center custom-nav-margin">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="logo custom-logo">
+                            <a href="/"><img src="/assets/imgs/trans-logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9">
+                        @*<div class="header-button f-right d-none d-lg-block">
+                                <a href="contact.html">Get a quote</a>
+                            </div>*@
+                        <div class="main-menu f-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    @*<li> <a href="/" id="menuHome">HOME</a> </li>*@
+
+                                    <li> <a href="/aboutus" id="menuAbout">ABOUT</a></li>
+
+                                    <li> <a href="/what_are_stabilizedmud_bricks" id="menuWasmb">WHAT ARE STABILIZED MUD BRICKS?</a> </li>
+
+                                    <li> <a href="/products" id="menuProducts">PRODUCTS</a> </li>
+
+                                    @*<li> <a href="/gallery" id="menuGallery">GALLERY</a> </li>*@
+
+                                    <li> <a href="/contactus" id="menuContact">CONTACT</a> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- wrapper-box start -->
+    <div class="wrapper-box ">
+
+        @RenderBody()
+
+
+        <!-- footer start -->
+        <footer>
+
+            <div class="brand-border"></div>
+            <div class="widget-area brand-border custom-footer-bg  pt-60 pb-30">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="row custom-row custom-p col-lg-6">
+
+                            <div class="row col-xl-8 col-lg-8 col-md-8 ">
+                                <div class="footer-widget custom-fr-img">
+                                    <img src="/assets/imgs/footer-img-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <h4 class="custom-ftr-color">
+                                    <b>
+                                        Interview with
+                                        Architect Anupama
+                                        Kundoo
+                                    </b>
+                                </h4>
+                                <div class="brand-border"></div>
+                                <p class="custom-ftr-color">
+                                    <a href="#">More such posts...</a>
+                                </p>
+                            </div>
+
+                            <div class="row custom-row col-xl-9 col-lg-9 col-md-9 pt-10 text-center">
+                                <div class="col-xl-4 col-lg-4 col-md-4 ">
+                                    <div class="custom-ftr-img ">
+                                        <img src="/assets/imgs/footer-img-2.jpg" alt="">
+                                        <p class="custom-ftr-color">
+                                            Customized Bricks
+                                            with re...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 ">
+                                    <div class="custom-ftr-img">
+                                        <img src="/assets/imgs/footer-img-2.jpg" alt="">
+                                        <p class="custom-ftr-color">
+                                            Customized Bricks
+                                            with re...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 ">
+                                    <div class="custom-ftr-img">
+                                        <img src="/assets/imgs/footer-img-2.jpg" alt="">
+                                        <p class="custom-ftr-color">
+                                            Customized Bricks
+                                            with re...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 text-center">
+                                <p class="custom-ftr-color">
+                                    <a href="#">
+                                        More from
+                                        Social Media...
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="cusom-ftr-line-img hide-mobile">
+                                <img src="/assets/imgs/line.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+                            <div class="footer-widget custom-p">
+
+                                <h3>Products</h3>
+                                <h6 class="custom-ftr-color">
+                                    9' X 12' X 4' &nbsp;&nbsp;&nbsp;  8' X 12' X 4' <br /><br /> 6' X 12' X 4' &nbsp;&nbsp;&nbsp;  4.5' X 12' X 4'
+                                </h6><br />
+                                <p class="custom-ftr-color mt-20">
+                                    Customized Bricks with respect to size
+                                    and colour tones can be made
+                                    available on request.<br />
+                                    <a href="/contactus"><u><b>SEND ENQUIRY</b></u></a>
+                                </p>
+
+                                <div class="footer-widget pt-10">
+
+                                    <ul class="footer-link">
+                                        @*<li><a href="/">HOME</a></li>*@
+                                        <li><a href="/products">PRODUCTS </a></li>
+                                        <li><a href="/aboutus">ABOUT</a></li>
+                                        <li><a href="/what_are_stabilizedmud_bricks">WHAT ARE STABILIZED MUD BRICKS?</a></li>
+
+                                        @*<li><a href="/gallery">GALLERY </a></li>*@
+
+                                        <li><a href="/contactus">CONTACT</a></li>
+                                        <li><a href="/careers">CAREERS</a></li>
+                                        <li><a href="/consultation">CONSULTATION</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hide-mobile">
+                            <img src="/assets/imgs/line.png" alt="" style="height:408px;">
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+                            <div class="footer-widget">
+
+                                <h3>Stabilized Mud Bricks</h3>
+                                <p class="custom-ftr-color">
+                                    <a href="#">What they are?</a><br />
+                                    <a href="#">How does it affect me?</a>
+                                </p>
+                                <div class="custom-p mt-80">
+                                    <p class="custom-ftr-color" style="font-size:18px;">
+                                        Get in touch with us to
+                                        make better living spaces
+                                        with Good Bricks<br />
+                                    </p>
+                                </div>
+                                <p style="font-size:18px;">
+                                    <a href="tel:+918277789499"><b>+91 82777 89499</b></a><br />
+                                    <a href="mailto:info@goodbrick.co"><b>info@goodbrick.co</b></a>
+                                </p>
+                                <div class="brand-border"></div>
+                                <div class="footer-icon ">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area pt-25 pb-25">
+                <div class="container">
+                    <div class="copyright-text  fa-pull-left ">
+                        <p>Copyright ©2021 Good Brick Company. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright-text fa-pull-right custom-copyright-text ">
+
+                        <p class="custom-text-color">Website Designed By-<a href="https://webmad.tech/" target="_blank">Webmad</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <!--<footer>-->
+        @*<div class="brand-area gray-bg">
+                <div class="container">
+                    <div class="brand-active brand-border pt-50 pb-50">
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand1.png" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand2.png" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand3.png" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand4.png" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand5.png" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href="#"><img src="/assets/img/brand/brand1.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+        <!--<div class="brand-border"></div>
+        <div class="widget-area brand-border custom-footer-bg  pt-60 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+                        <div class="footer-widget">-->
+        @*<h3>About</h3>
+            <p class="custom-ftr-color">
+             Good Brick Company busts the myths of Compressed Stabilized Mud Bricks
+              and brings to you a time tested technology that is steeped in the wisdom
+                 and goodness that mother earth has to offer!
+            </p>*@
+        <!--<h3>Products</h3>
+                <p class="custom-ftr-color">
+                    9' X 12' X 4' &nbsp;&nbsp;&nbsp;  8' X 12' X 4' <br /> 6' X 12' X 4' &nbsp;&nbsp;&nbsp;  4.5' X 12' X 4'
+                </p>
+                <p class="custom-ftr-color">
+                    Customized Bricks with respect to size
+                    and colour tones can be made
+                    available on request.
+
+                </p>
+                <p>
+                    <a href="/contactus"><u><b>SEND ENQUIRY</b></u></a>
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+            <div class="footer-widget">
+                <h3>Usefull links</h3>
+                <ul class="footer-link">-->
+        @*<li><a href="/">HOME</a></li>*@
+        <!--<li><a href="/products">PRODUCTS </a></li>
+                                    <li><a href="/aboutus">ABOUT</a></li>
+                                    <li><a href="/what_are_stabilizedmud_bricks">WHAT ARE STABILIZED MUD BRICKS?</a></li>
+
+                                    <li><a href="/gallery">GALLERY </a></li>
+                                    <li><a href="/contactus">CONTACT</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+                            <div class="footer-widget">
+                                <h3>Contact Us</h3>
+                                <ul class="footer-info">
+                                    <li>
+                                        Office and workshop;<br />
+                                        105/7, Nandi Village,
+                                        Chikkaballapura,
+                                        Bengaluru 562101
+                                    </li>
+                                    <li><a href="tel:+918277789499">+91 82777 89499</a> </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30 ">
+                            <div class="footer-widget">
+                                <h3>Stabilized Mud Bricks</h3>
+                                <p class="custom-ftr-color">
+                                    <a href="#">What they are?</a><br />
+                                    <a href="#">How does it affect me?</a>
+                                </p>
+
+                                <p class="custom-ftr-color">
+                                    Get in touch with us to
+                                    make better living spaces
+                                    with Good Bricks<br />
+                                    <a href="mailto:info@goodbrick.co"><b><u>info@goodbrick.co</u></b></a>
+                                </p>
+
+                                <div class="footer-icon mt-30">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area pt-25 pb-25">
+                <div class="container">
+                    <div class="copyright-text  fa-pull-left">
+                        <p>Copyright ©2021 Good Brick Company. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright-text fa-pull-right custom-copyright-text ">
+
+                        <p class="custom-text-color">Website Designed By-<a href="https://webmad.tech/" target="_blank">Webmad</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>-->
+
+    </div>
+    <!-- wrapper-box end -->
+    <!-- All js here -->
+    <script src="/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/waypoints.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        var actionName = '@ViewContext.RouteData.Values["action"].ToString().ToLower()';
+
+        $(document).ready(function () {
+            switch (actionName) {
+                case 'index': $('#menuHome').addClass('menu-active');
+                    break;
+                case 'aboutus': $('#menuAbout').addClass('menu-active');
+                    break;
+                case 'what_are_stabilizedmud_bricks': $('#menuWasmb').addClass('menu-active');
+                    break;
+                case 'products': $('#menuProducts').addClass('menu-active');
+                    break;
+                case 'gallery': $('#menuGallery').addClass('menu-active');
+                    break;
+                case 'contactus': $('#menuContact').addClass('menu-active');
+                    break;
+                default: $('#menuHome').addClass('menu-active');
+                    break;
+            }
+
+
+        });
+    </script>
+   
+
+</body>
+</html>
